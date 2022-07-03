@@ -10,4 +10,6 @@ RUN apk add --no-cache git wget docker-cli
 
 RUN curl https://getcomposer.org/composer.phar >> /usr/local/bin/composer
 
-RUN apk add --update npm
+RUN chmod u+s /bin/ping
+
+RUN chmod u+s /usr/local/bin/composer
