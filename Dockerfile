@@ -12,4 +12,4 @@ RUN curl https://getcomposer.org/composer.phar >> /usr/local/bin/composer
 
 RUN chmod u+s /bin/ping
 
-RUN chmod u+s /usr/local/bin/composer
+RUN chmod u+s+x /usr/local/bin/composer
